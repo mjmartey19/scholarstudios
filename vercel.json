@@ -7,7 +7,7 @@
   "routes": [
     {
       "src": "/slides/*",
-      "dest": "/api/$1" 
+      "dest": "/api/slides/$1" 
     },
     {
       "src": "/",
