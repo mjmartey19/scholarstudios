@@ -5,13 +5,17 @@
     }
   },
   "routes": [
-  {
-      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico))",
+    {
+      "src": "/api/(.*\\.php)",
+      "dest": "/api/index.php"  
+    },
+    {
+      "src": "/api/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico))",
       "dest": "/api/$1" 
     },
     {
       "src": "/(.*)",
-      "dest": "/api/index.php"
+      "dest": "/api/index.php" 
     }
   ]
 }
