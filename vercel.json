@@ -3,7 +3,9 @@
     "api/*.php": {
       "runtime": "vercel-php@0.7.1"
     }
-  
+  },
+  "engines": {
+    "node": "18.x"
   },
   "routes": [
     {
@@ -12,3 +14,4 @@
     }
   ]
 }
+
