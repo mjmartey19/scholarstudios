@@ -5,9 +5,9 @@
     }
   },
   "routes": [
-    {
-      "src": "/(.*\\.(css|js))",
-      "dest": "/public/$1"
+  {
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico))",
+      "dest": "/$1" 
     },
     {
       "src": "/(.*)",
